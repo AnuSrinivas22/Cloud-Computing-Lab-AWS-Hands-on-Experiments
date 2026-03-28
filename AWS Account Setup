@@ -1,0 +1,76 @@
+## 🌐 AWS Account Setup
+
+To perform the cloud computing experiments, an Amazon Web Services (AWS) account is required.
+
+### 🔹 Steps to Create an AWS Account
+
+1. Visit the AWS official website: https://aws.amazon.com/
+2. Click on **Create an AWS Account**
+3. Provide:
+
+   * Email address
+   * Password
+   * AWS account name
+4. Enter billing information (credit/debit card required)
+5. Complete identity verification (OTP via phone/email)
+6. Choose a support plan (Basic – Free)
+
+---
+
+### 🔹 AWS Free Tier
+
+AWS provides a **Free Tier** that allows limited usage of services for learning purposes:
+
+* 750 hours of EC2 (t2.micro / t3.micro)
+* 5GB S3 storage
+* Limited RDS usage
+
+---
+
+### 🔹 AWS Management Console
+
+After account creation, log in to:
+https://console.aws.amazon.com/
+
+This is the main dashboard used to access and manage all AWS services such as:
+
+* EC2 (Virtual Servers)
+* S3 (Storage)
+* IAM (User Access Control)
+* RDS (Database Services)
+
+---
+
+### 🔐 Security Best Practices
+
+* Do NOT use root account for daily tasks
+* Enable **Multi-Factor Authentication (MFA)**
+* Create IAM users with limited permissions
+* Regularly monitor billing dashboard
+
+---
+
+### 👤 IAM Setup (Recommended)
+
+Create a new IAM user:
+
+1. Go to IAM Dashboard
+2. Add User
+3. Assign permissions (AdministratorAccess for learning)
+4. Use IAM credentials instead of root login
+
+---
+
+### 💰 Cost Management
+
+To avoid unexpected charges:
+
+* Enable **Billing Alerts**
+* Set up a budget in AWS Billing Dashboard
+* Stop unused EC2 instances
+
+---
+
+### ⚠️ Note
+
+This repository is created for educational purposes using AWS Free Tier resources. Users should monitor their usage to avoid charges.
